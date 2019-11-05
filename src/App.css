@@ -4,7 +4,7 @@
     max-width: 550px;
     border-radius: 15px;
     border: 2px solid grey;
-    padding-bottom: 25px;
+    padding:2rem;
 }
 .display {
     margin-top: 25px;
@@ -20,3 +20,64 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+.App{
+    padding: 1rem;
+    padding-top:0;
+    /* height:600px; */
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items:center;
+}
+.App button{
+    border-radius:65%;
+    font-size:1.8rem;
+    padding:1.2rem;
+    width:5rem;
+    height:5rem;
+    margin: .5rem;
+    color:white;
+    border:none;
+    box-shadow: 0 .5rem .5rem rgba(000,000,000,0.9);
+    
+}
+.buttons-group{
+    display:flex;
+    justify-content:space-between;
+    align-items:space-between;
+    height:75%;
+    margin:2rem 0;
+}
+.buttons-group div{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:space-around;
+}
+.buttons-group div .numbers_group{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    
+    
+}
+.buttons-group div .special_group{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    
+    
+}
+.numbers_button{
+    background-color:darkblue;
+    
+}
+.operator_button{
+    background-color:lightskyblue;
+    
+}
+.special_button{
+    background-color:lightseagreen;
+    
+}
