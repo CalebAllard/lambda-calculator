@@ -43,6 +43,7 @@
     color:white;
     border:none;
     box-shadow: 0 .3rem .3rem rgba(000,000,000,0.9);
+    text-align:center;
     
 }
 .App button:hover{
@@ -54,6 +55,7 @@
     align-items:space-between;
     
     width:80%;
+    margin-bottom:1rem;
 }
 .buttons-group .operators_group{
     width:25%;
@@ -80,7 +82,7 @@
 .buttons-group div .special_group{
     display:flex;
     flex-direction:row;
-    justify-content:space-around;
+    justify-content:space-between;
     
     
 }
