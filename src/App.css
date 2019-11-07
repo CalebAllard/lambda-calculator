@@ -1,10 +1,13 @@
 .container {
-    background-color: #c00025;
+    background-color: #ac2c46;
     width: 100%;
     max-width: 550px;
     border-radius: 15px;
     border: 2px solid grey;
-    padding-bottom: 25px;
+    /* padding:2rem; */
+}
+.container .logo-container{
+    padding:2rem 0 0 1.5rem;
 }
 .display {
     margin-top: 25px;
@@ -19,4 +22,79 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+    margin-bottom:2rem;
   }
+.App{
+    padding: 1rem;
+    padding-top:0;
+    /* height:600px; */
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items:center;
+}
+.App button{
+    border-radius:65%;
+    font-size:1.8rem;
+    padding:1.2rem;
+    width:5rem;
+    height:5rem;
+    margin: .5rem;
+    color:white;
+    border:none;
+    box-shadow: 0 .3rem .3rem rgba(000,000,000,0.9);
+    text-align:center;
+    
+}
+.App button:hover{
+    cursor:pointer;
+}
+.buttons-group{
+    display:flex;
+    justify-content:space-between;
+    align-items:space-between;
+    
+    width:80%;
+    margin-bottom:1rem;
+}
+.buttons-group .operators_group{
+    width:25%;
+}
+.buttons-group div{
+    display:flex;
+    width:100%;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:space-around;
+}
+.buttons-group div .numbers_group{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    
+    
+}
+.buttons-group div .numbers_group button:nth-child(10){
+    width:12rem;
+    border-radius: 50px;
+}
+.buttons-group div .special_group{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    
+    
+}
+.numbers_button{
+    background-color:rgb(33, 43, 97);
+    
+}
+.operator_button{
+    background-color:rgb(50, 137, 139);
+    
+}
+.special_button{
+    background-color:rgb(38, 113, 148);
+    
+}
